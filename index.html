@@ -1,10 +1,32 @@
 <html>
     <head>
         <title>Vale</title>
-        <link rel="stylesheet" href="">
-        <script> </script>
+        <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
-        
+        <h1>Vale</h1>
+        <div id="vale">
+            <h3>Número:</h3>
+            <input type="text" id="numero">
+            Número do vale
+            <h3>Valor:</h3>
+            <input type="text" id="valor">
+            <br>
+            Valor do vale
+            <br>
+            <h3>Cidade</h3>
+            <input type="text" id="cidade">
+            <h3>Data</h3>
+            <input type="date" id="data">
+            <br>
+            <h3>Dados da Empresa:</h3>
+            <input type="text" id="dadosEmpresa">
+            <input type="checkbox" id="segundaVia" name="segundaVia" value="segundaVia">
+            <label for="segundaVia"> Sim</label><br><br>
+            <input type="button" value="gerar" onclick="gerar()">
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
